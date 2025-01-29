@@ -1,4 +1,7 @@
-# Swift for Visual Studio Code
+# Swift for Visual Studio Code (Deprecated)
+
+> [!WARNING]
+> This extension has been moved to [swiftlang.vscode-swift](https://marketplace.visualstudio.com/items?itemName=swiftlang.vscode-swift) in the VS Code Marketplace. This extension (`sswg.swift-lang`) is a deprecated, and exists to help migrate existing extension users to the new extension location. Do not install this extension, instead please download [swiftlang.vscode-swift](https://marketplace.visualstudio.com/items?itemName=swiftlang.vscode-swift).
 
 This extension adds language support for Swift to Visual Studio Code. It supports:
 
