@@ -15,7 +15,6 @@
 import * as vscode from "vscode";
 import * as assert from "assert";
 import * as mocha from "mocha";
-import { Api } from "../../../src/extension";
 import { testAssetUri } from "../../fixtures";
 import { WorkspaceContext } from "../../../src/WorkspaceContext";
 import { FolderContext } from "../../../src/FolderContext";
@@ -29,8 +28,8 @@ function getRootWorkspaceFolder(): vscode.WorkspaceFolder {
 }
 
 const extensionBootstrapper = (() => {
-    let activator: (() => Promise<Api>) | undefined = undefined;
-    let activatedAPI: Api | undefined = undefined;
+    let activator: (() => Promise<any>) | undefined = undefined;
+    let activatedAPI: any | undefined = undefined;
     let lastTestName: string | undefined = undefined;
     let lastTestLogs: string[] = [];
     const testTitle = (currentTest: Mocha.Test) => currentTest.titlePath().join(" → ");
@@ -129,7 +128,7 @@ const extensionBootstrapper = (() => {
                 );
             }
             const extensionId = "sswg.swift-lang";
-            const ext = vscode.extensions.getExtension<Api>(extensionId);
+            const ext = vscode.extensions.getExtension<any>(extensionId);
             if (!ext) {
                 throw new Error(`Unable to find extension "${extensionId}"`);
             }
