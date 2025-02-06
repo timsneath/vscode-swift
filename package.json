@@ -41,7 +41,7 @@
     "debuggers": []
   },
   "extensionDependencies": [
-    "swiftlang.vscode-swift"
+    "swiftlang.swift-vscode"
   ],
   "scripts": {
     "vscode:prepublish": "npm run bundle",
