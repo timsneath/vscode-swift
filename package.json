@@ -1,7 +1,7 @@
 {
   "name": "swift-lang",
   "displayName": "Swift (Deprecated)",
-  "description": "Swift Language Support for Visual Studio Code (Deprecated, use swiftlang.vscode-swift)",
+  "description": "Swift Language Support for Visual Studio Code (Deprecated, use swiftlang.swift-vscode)",
   "version": "1.12.0",
   "publisher": "sswg",
   "icon": "icon.png",
