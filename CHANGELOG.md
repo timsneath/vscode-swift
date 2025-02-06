@@ -2,7 +2,7 @@
 
 ## 1.12.0 - 2025-01-07
 
-- This extension has moved namespaces to `swiftlang/vscode-swift`. This release is an empty shell extension that depends on the extension at its new location.
+- This extension has updated its VS Code Marketplace publisher ID to `swiftlang/swift-vscode`. This release is an empty shell that depends on the extension at its new location. The `Swift (Deprecated)` extension can be uninstalled once the new extension has been automatically installed.
 
 ## 1.11.4 - 2024-12-06
 
